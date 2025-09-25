@@ -1,6 +1,6 @@
 name: 04 -  Using Actions
 
-on: push
+on: workflow_dispatch
 
 jobs:
   build:
@@ -23,8 +23,3 @@ jobs:
 
       - name: Run Unit test
         run: npm run test
-        
-
-    #0. check the code from the repo
-    # 1. Install deps of our react app
-    #2. Run automated tests
