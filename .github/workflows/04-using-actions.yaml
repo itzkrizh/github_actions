@@ -12,6 +12,9 @@ jobs:
       - name: Printing Folders
         run: ls
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+
     #0. check the code from the repo
     # 1. Install deps of our react app
     #2. Run automated tests
