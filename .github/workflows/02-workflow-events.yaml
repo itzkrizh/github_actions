@@ -7,3 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       name: Show the trigges
+      run: echo "This will print the type of event that triggered the workflow"
+      
