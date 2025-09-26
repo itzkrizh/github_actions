@@ -1,5 +1,4 @@
 name: 07 - Expressions
-run-name: 07- Using Expression | DEBUG - ${{inputs.default && 'ON' || 'OFF'}}
 
 on: 
   push:
