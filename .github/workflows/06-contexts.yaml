@@ -1,9 +1,10 @@
 name: 06 - Contexts
 
-run-name: My custom workflow run name - ${{runner.OS}}
+run-name: My custom workflow run name - ${{runner.os}}
 
 on:
-  workflow_dispatch
+  push:
+  workflow_dispatch:
 
 jobs:
   echo-data:
